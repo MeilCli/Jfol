@@ -122,3 +122,89 @@ output:
 `$$separator` can define anywhere array field body.
 
 that is, `$array[$value$$separator[\n]]` equals to `$array[$$separator[\n]$value]`.
+
+### index
+can get index of array in array field, use `$$index`.
+
+json:
+```json
+{
+    "array": [
+        {
+            "value": 1
+        },
+        {
+            "value": 2
+        }
+    ]
+}
+```
+
+format:
+```
+$array[index $$index value: $value$$separator[\n]]
+```
+
+output:
+```
+index 0 value: 1
+index 1 value: 2
+```
+
+### number
+can get number(`index + 1`) of array in array field, use `$$number`.
+
+json:
+```json
+{
+    "array": [
+        {
+            "value": 1
+        },
+        {
+            "value": 2
+        }
+    ]
+}
+```
+
+format:
+```
+$array[number $$number value: $value$$separator[\n]]
+```
+
+output:
+```
+number 1 value: 1
+number 2 value: 2
+```
+
+### length
+can get length of array as function in array function or body.
+
+json:
+```json
+{
+    "array": [
+        {
+            "value": 1
+        },
+        {
+            "value": 2
+        }
+    ]
+}
+```
+
+
+format:
+```
+Total: $$(array.length)\n$array[number $$number/$$length: $value$$separator[\n]]
+```
+
+output:
+```
+Total: 2
+number 1/2: 1
+number 2/2: 2
+```
