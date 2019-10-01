@@ -37,9 +37,32 @@ some `$` means special operand.
 
 - `$`: field accessor
 - `$$`: function accessor
+- `()`: some function argument
 - `[]`: function or field body
 - `.`: chain of function and field
   - such as `$(object.field)` or `$$(array.length)`
+  
+## Object
+### if
+conditional value, use `$$if`.
+
+json:
+```json
+{
+    "name": "meil"
+}
+```
+
+format:
+```
+Hello World$$if($name=="meil")[, MeilCli].
+```
+
+output:
+```
+Hello World, MeilCli.
+```
+
   
 ## Array
 ### foreach
@@ -207,4 +230,31 @@ output:
 Total: 2
 number 1/2: 1
 number 2/2: 2
+```
+
+### where
+filter element, use `$$where`.
+
+json:
+```json
+{
+    "array": [
+        {
+            "value": 1
+        },
+        {
+            "value": 2
+        }
+    ]
+}
+```
+
+format:
+```
+$array[value: $value$$where($value==1)]
+```
+
+output:
+```
+value: 1
 ```
