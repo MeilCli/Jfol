@@ -1,5 +1,5 @@
-# jdl
-JSON Domain Language
+# jfl
+JSON Format Language
 
 ## Surmary
 json:
