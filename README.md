@@ -1,4 +1,4 @@
-# jfl
+# Jfl
 JSON Format Language
 
 ## Surmary
