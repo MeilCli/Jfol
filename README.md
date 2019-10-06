@@ -1,5 +1,5 @@
-# Jfl
-JSON Format Language
+# Jfol
+JSON Formation Language
 
 ## Surmary
 json:
