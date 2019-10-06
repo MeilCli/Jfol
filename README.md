@@ -1,6 +1,8 @@
 # Jfol
 JSON Formation Language
 
+Note: Experimental syntax
+
 ## Surmary
 json:
 ```json
