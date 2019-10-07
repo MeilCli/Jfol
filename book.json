@@ -1,0 +1,34 @@
+{
+  "title": "Jfol Document",
+  "description": "JSON Formation Language Document",
+  "plugins": [
+    "expand-active-chapter",
+    "copy-code-button",
+    "i18n-upgrade",
+    "edit-link",
+    "anchorjs"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/MeilCli/Jfol/edit/master/",
+      "label": {
+        "en": "Edit This Page",
+        "jp": "このページを編集する"
+      }
+    },
+    "i18n": {
+      "Lang1": {
+        "name": "English",
+        "url": "en"
+      },
+      "Lang2": {
+        "name": "日本語",
+        "url": "jp"
+      }
+    },
+    "anchorjs": {
+      "selector": "h2,h3,h4,h5",
+      "placement": "left"
+    }
+  }
+}
