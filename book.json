@@ -4,7 +4,7 @@
   "plugins": [
     "expand-active-chapter",
     "copy-code-button",
-    "i18n-upgrade",
+    "language-picker",
     "edit-link",
     "anchorjs"
   ],
@@ -14,16 +14,6 @@
       "label": {
         "en": "Edit This Page",
         "jp": "このページを編集する"
-      }
-    },
-    "i18n": {
-      "Lang1": {
-        "name": "English",
-        "url": "en"
-      },
-      "Lang2": {
-        "name": "日本語",
-        "url": "jp"
       }
     },
     "anchorjs": {
