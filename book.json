@@ -12,8 +12,8 @@
     "edit-link": {
       "base": "https://github.com/MeilCli/Jfol/edit/master/",
       "label": {
-        "en": "Edit This Page",
-        "jp": "このページを編集する"
+        "en": "",
+        "jp": ""
       }
     },
     "anchorjs": {
