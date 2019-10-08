@@ -1,12 +1,17 @@
 {
   "title": "Jfol Document",
   "description": "JSON Formation Language Document",
+  "styles": {
+    "website": "styles/website.css"
+  },
   "plugins": [
     "expand-active-chapter",
     "copy-code-button",
     "language-picker",
     "edit-link",
-    "anchorjs"
+    "anchorjs",
+    "github",
+    "intopic-toc"
   ],
   "pluginsConfig": {
     "edit-link": {
@@ -19,6 +24,15 @@
     "anchorjs": {
       "selector": "h2,h3,h4,h5",
       "placement": "left"
+    },
+    "github": {
+      "url": "https://github.com/MeilCli/Jfol"
+    },
+    "intopic-toc": {
+      "label": {
+        "en": "In this article",
+        "jp": "この記事の内容"
+      }
     }
   }
 }
