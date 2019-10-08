@@ -45,7 +45,7 @@ $$*functionName*(*functionArguments*)[*functionBodies*]
   - $$*functionName*(*functionArguments*)
 
 ## Escape
-If write raw caracter, must escape it by `\`.
+If write raw character, must escape it by `\`.
 
 Escapable characters:
 - `$`
@@ -55,3 +55,14 @@ Escapable characters:
 - `]`
 - `\`
 - `"`
+
+## Escape Sequence
+If use special character, you can use escaping sequence.
+
+- `\0`: Null
+- `\b`: Backslash
+- `\f`: Form feed
+- `\n`: New line
+- `\r`: Carriage return
+- `\t`: Horizontal tab
+- `\v`: Vertical tab
