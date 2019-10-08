@@ -8,6 +8,17 @@ Jfol interpret some character to symbol.
 - `\`
 
 ## Syntax
+### Literal
+Jfol has 4 literal type.
+- String Literal
+  - alike some programming language, enclosed by `""`
+- Number Literal
+  - alike some programming language number, but Numerical range is implementation-dependent
+- Boolean Literal
+  - `true` or `false`
+- Null Literal
+  - `null`
+
 ### Field
 $(*identifiers*)[*fieldBodies*]  
 $*identifier*[*fieldBodies*]
