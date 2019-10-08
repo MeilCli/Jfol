@@ -6,7 +6,7 @@ Note: Experimental syntax
 
 ## Document Site
 |Language|URL|
-|:--:|:--:|
+|:--|:--|
 |English|https://jfol.meilcli.net/en/|
 |日本語|https://jfol.meilcli.net/jp/|
 
@@ -14,7 +14,7 @@ Note: Japanese document is not enough
 
 ## Implementation
 |Language|URL|
-|:--:|:--:|
+|:--|:--|
 |TypeScript|https://github.com/MeilCli/Jfol.TS|
 
 ## License
