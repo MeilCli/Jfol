@@ -17,5 +17,8 @@ Note: Japanese document is not enough
 |:--|:--|
 |TypeScript|https://github.com/MeilCli/Jfol.TS|
 
+## Test Data
+https://github.com/MeilCli/Jfol.Test
+
 ## License
 This document id under [MIT License](LICENSE).
