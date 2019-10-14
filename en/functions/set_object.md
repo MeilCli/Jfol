@@ -4,7 +4,7 @@
     - first argument:
       - type: String
       - description: set to property name
-    - second argunmet:
+    - second argument:
       - type: Object
       - description: value that copy
 - type:
