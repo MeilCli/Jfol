@@ -1,2 +1,2 @@
-# Function
-ToDo write
+# 関数
+Jfolは様々な関数を持っています
