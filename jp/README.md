@@ -38,6 +38,6 @@ Packages Total: 2
 ```
 
 ## 遊び場
-[ここ](https://meilcli.github.io/Jfol.TS/index.html)でJfolのオンラインランナーが用意されています
+[ここ](http://playground.jfol.meilcli.net/)でJfolのオンラインランナーが用意されています
 
 JfolによるJSONの変換を試すことができます

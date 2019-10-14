@@ -38,6 +38,6 @@ Packages Total: 2
 ```
 
 ## Playground
-Jfol online runner is prepared on [This](https://meilcli.github.io/Jfol.TS/index.html).
+Jfol online runner is prepared on [This](http://playground.jfol.meilcli.net/).
 
 You can try JSON transforming by Jfol

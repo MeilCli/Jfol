@@ -17,6 +17,9 @@ Note: Japanese document is not enough
 |:--|:--|
 |TypeScript|https://github.com/MeilCli/Jfol.TS|
 
+## Playground
+http://playground.jfol.meilcli.net/
+
 ## Test Data
 https://github.com/MeilCli/Jfol.Test
 
