@@ -1,9 +1,17 @@
 # where
+- syntax: 
+  - `$$where(condition)`
+    - first argument:
+      - type: Boolean
+      - description: condition of execute array body
+- type:
+  - Boolean
+- description:
+  - control of where on array body
 
-filter element, use `$$where`.
+**This function is special function, available in array body. And enabled on anywhere on array body.**
 
-json:
-
+## Example
 ```json
 {
   "array": [
@@ -17,14 +25,12 @@ json:
 }
 ```
 
-format:
-
+jfol:
 ```
 $array[value: $value$$where($value==1)]
 ```
 
-output:
-
+result:
 ```
 value: 1
 ```

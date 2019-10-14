@@ -1,6 +1,5 @@
 # Introduction
-
-JSON Formation Language
+JSON Formation Language(Jfol)
 
 Note: Experimental syntax
 
@@ -8,7 +7,6 @@ Note: Experimental syntax
 Jfol is created to easy for JSON transforming to JSON or Text.
 
 json:
-
 ```json
 {
   "array": [
@@ -27,21 +25,19 @@ json:
 ```
 
 jfol:
-
 ```
 Packages Total: $$(array.length)
 $array[$$index: $(package.name)$$separator[\n]]
 ```
 
-output:
-
+result:
 ```
 Packages Total: 2
 0: pack1
 1: pack2
 ```
 
-## Experience
+## Playground
 Jfol online runner is prepared on [This](https://meilcli.github.io/Jfol.TS/index.html).
 
 You can try JSON transforming by Jfol

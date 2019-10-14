@@ -1,9 +1,16 @@
 # separator
+- syntax:
+  - `$$separator[body]`
+    - body:
+      - current context(behind element)
+- type:
+  - String
+- description:
+  - array text's separator
 
-simple foreach cannot set separator, so use `$$separator` function.
+**This function is special function, available in array body. And enabled on anywhere on array body.**
 
-json:
-
+## Example
 ```json
 {
   "array": [
@@ -17,19 +24,13 @@ json:
 }
 ```
 
-format:
-
+jfol:
 ```
 $array[$value$$separator[\n]]
 ```
 
-output:
-
+result:
 ```
 1
 2
 ```
-
-`$$separator` can define anywhere array field body.
-
-that is, `$array[$value$$separator[\n]]` equals to `$array[$$separator[\n]$value]`.

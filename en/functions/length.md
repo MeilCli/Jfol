@@ -1,9 +1,12 @@
 # length
+- syntax:
+  - `$$length`
+- type:
+  - Number or String
+- description:
+  - return array length or length property's value
 
-can get length of array as function in array function or body.
-
-json:
-
+## Example
 ```json
 {
   "array": [
@@ -17,14 +20,12 @@ json:
 }
 ```
 
-format:
-
+jfol:
 ```
 Total: $$(array.length)\n$array[number $$number/$$length: $value$$separator[\n]]
 ```
 
-output:
-
+result:
 ```
 Total: 2
 number 1/2: 1
